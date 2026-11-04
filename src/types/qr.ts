@@ -1,0 +1,1 @@
+export type QrType = "text" | "url" | "phone" | "wifi" | "vcard";
