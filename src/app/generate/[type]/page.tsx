@@ -30,7 +30,7 @@ export default async function GeneratePage({ params }: Props) {
         title={`${config.label} QR Code`}
         description={config.description}
       />
-      <QrGenerator type={config.id} />
+      <QrGenerator key={config.id} type={config.id} />
     </div>
   );
 }
